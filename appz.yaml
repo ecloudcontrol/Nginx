@@ -4,17 +4,19 @@
         notify: appzdev@cloudbourne.co
         
     build:
-        version: 1.2
-        env: DEV
+        version: 1.28
+        env: PROD
         build_file: none
         output_files: output/*.zip
-        image_template: nginx-1.14
+        image_template: nginx-1.28
         
     deploy:
-        context: alpha/DEV
+        context: tipreprod/PROD
         replicas: 1
         port:
         - 443
+        - 80
+        - 8080
     
     properties:
         SITE_PRIVATE_KEY:
