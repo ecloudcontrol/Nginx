@@ -14,7 +14,6 @@
         context: tipreprod/PROD
         replicas: 1
         port:
-        - 443
         - 80
         - 8080
     
