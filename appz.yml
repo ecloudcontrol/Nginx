@@ -18,9 +18,7 @@
         - 8080
     
     properties:
-        STATS_HTPASSWD:
-          vault: STATS_HTPASSWD
-        MIKE:
-          vault: MIKE_USER
+        HTPASSWD_CONTENT:
+          vault: NGINX_HTPASSWD
         revision : 16
         
