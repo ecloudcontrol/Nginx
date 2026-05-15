@@ -20,5 +20,5 @@
     properties:
         HTPASSWD_CONTENT:
           vault: NGINX_HTPASSWD
-        revision : 17
+        revision : 18
         
