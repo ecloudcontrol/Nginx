@@ -18,4 +18,9 @@
         - 8080
     
     properties:
+        STATS_HTPASSWD:
+          vault: STATS_HTPASSWD
+        MIKE_USER:
+          vault: MIKE_USER
         revision : 3
+        
