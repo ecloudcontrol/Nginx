@@ -16,13 +16,11 @@
         port:
         - 80
         - 8080
-    volumes:
-      - claim: nginx-auth
-        class: linode-block-storage
-        mount: /etc/nginx/auth
-        name: auth
-        size: 5Gi
-        matchLabels: false
     
     properties:
+        STATS_HTPASSWD:
+          vault: STATS_HTPASSWD
+        MIKE_USER:
+          vault: MIKE_USER
         revision : 3
+        
