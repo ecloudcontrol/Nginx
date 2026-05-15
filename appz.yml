@@ -20,7 +20,7 @@
     properties:
         STATS_HTPASSWD:
           vault: STATS_HTPASSWD
-        MIKE_USER:
+        MIKE:
           vault: MIKE_USER
         revision : 4
         
